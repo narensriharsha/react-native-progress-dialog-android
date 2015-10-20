@@ -1,4 +1,4 @@
-# react-native-progress-dialog-android
+# react-native-progress-dialog-android (not work now, working on it)
 
 React native android module to present progress dialog.
 
