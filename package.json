@@ -20,6 +20,6 @@
   "repository": "https://github.com/damonYuan/react-native-progress-dialog-android",
   "bugs": "https://github.com/damonYuan/react-native-progress-dialog-android/issues",
   "peerDependencies": {
-    "react-native": ">=0.12"
+    "react-native": ">=0.11"
   }
 }
