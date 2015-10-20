@@ -14,8 +14,8 @@ npm install --save react-native-progress-dialog-android
 
 ```gradle
 ...
-include ':DYProgressDialogAndroid', ':app'
-project(':DYProgressDialogAndroid').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-progress-dialog-android')
+include ':dyprogressdialogandroid', ':app'
+project(':dyprogressdialogandroid').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-progress-dialog-android')
 ```
 
 * In `android/app/build.gradle`
@@ -24,7 +24,7 @@ project(':DYProgressDialogAndroid').projectDir = new File(rootProject.projectDir
 ...
 dependencies {
     ...
-    compile project(':DYProgressDialogAndroid')
+    compile project(':dyprogressdialogandroid')
 }
 ```
 
