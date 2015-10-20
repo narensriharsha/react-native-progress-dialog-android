@@ -11,12 +11,17 @@ import com.facebook.react.bridge.ReactMethod;
 import com.facebook.react.common.MapBuilder;
 
 public class DYProgressDialogAndroidModule extends ReactContextBaseJavaModule {
+    
+    private static final String TAG = DYProgressDialogAndroidModule.class.getSimpleName();
+    
     private Context context;
     private ProgressDialog progressDialog;
 
     public DYProgressDialogAndroidModule(ReactApplicationContext reactContext) {
         super(reactContext);
         this.context = reactContext;
+        Log.d(TAG, "Context " + context);
+        Log.d(TAG, "reactContext " + reactContext);
     }
 
     @Override

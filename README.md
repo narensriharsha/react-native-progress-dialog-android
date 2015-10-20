@@ -31,7 +31,7 @@ dependencies {
 * register module (in MainActivity.java)
 
 ```java
-import com.damonyuan.dyprogressdialogandroid.DYProgressDialogAndroidPackage;;  // <--- import
+import com.damonyuan.dyprogressdialogandroid.DYProgressDialogAndroidPackage;  // <--- import
 
 public class MainActivity extends Activity implements DefaultHardwareBackBtnHandler {
   ......

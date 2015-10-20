@@ -1,6 +1,6 @@
 {
   "name": "react-native-progress-dialog-android",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "React native android module to present progress dialog",
   "main": "index.js",
   "scripts": {
