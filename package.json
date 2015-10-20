@@ -1,0 +1,25 @@
+{
+  "name": "react-native-progress-dialog-android",
+  "version": "1.0.0",
+  "description": "React native android module to present progress dialog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "android",
+    "progress",
+    "dialog",
+    "progress dialog",
+    "react-component"
+  ],
+  "author": "Damon Yuan <yzmhit@live.com>",
+  "license": "MIT",
+  "repository": "https://github.com/damonYuan/react-native-progress-dialog-android",
+  "bugs": "https://github.com/damonYuan/react-native-progress-dialog-android/issues",
+  "peerDependencies": {
+    "react-native": ">=0.12"
+  }
+}
