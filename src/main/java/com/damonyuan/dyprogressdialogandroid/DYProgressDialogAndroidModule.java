@@ -2,7 +2,9 @@ package com.damonyuan.dyprogressdialogandroid;
 
 import android.app.ProgressDialog;
 import android.content.Context;
+import android.util.Log;
 
+import com.facebook.react.bridge.BaseJavaModule;
 import com.facebook.react.bridge.NativeModule;
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContext;
@@ -10,18 +12,18 @@ import com.facebook.react.bridge.ReactContextBaseJavaModule;
 import com.facebook.react.bridge.ReactMethod;
 import com.facebook.react.common.MapBuilder;
 
-public class DYProgressDialogAndroidModule extends ReactContextBaseJavaModule {
-    
+public class DYProgressDialogAndroidModule extends BaseJavaModule {
+
     private static final String TAG = DYProgressDialogAndroidModule.class.getSimpleName();
-    
+
     private Context context;
     private ProgressDialog progressDialog;
 
-    public DYProgressDialogAndroidModule(ReactApplicationContext reactContext) {
-        super(reactContext);
-        this.context = reactContext;
+    public DYProgressDialogAndroidModule(Context context) {
+        super();
+        this.context = context;
         Log.d(TAG, "Context " + context);
-        Log.d(TAG, "reactContext " + reactContext);
+        Log.d(TAG, "reactContext " + context);
     }
 
     @Override
@@ -36,7 +38,7 @@ public class DYProgressDialogAndroidModule extends ReactContextBaseJavaModule {
     public void setCancelable(boolean cancelable) {
         this.progressDialog.setCancelable(cancelable);
     }
-    
+
     @ReactMethod
     public void setMessage(String message) {
         this.progressDialog.setMessage(message);
